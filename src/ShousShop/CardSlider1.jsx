@@ -45,68 +45,68 @@ function CardSlider1() {
       <Slider {...settings}>
         <div>
           <div className="co-md-3">
-            <img src="./media/Shous/shousmen-image1.jpg" alt="" style={{width:"90%",height:"60vh"}}/>
+            <img src="./media/Shous/shousmen-image1.jpg" alt="" className="card-slider-image"/>
           </div>
         </div>
         <div className="co-md-3">
-            <img src="./media/Shous/shousmen-image2.webp" alt="" style={{width:"90%",height:"60vh"}}/>
+            <img src="./media/Shous/shousmen-image2.webp" alt="" className="card-slider-image"/>
           </div>
 
          <div className="co-md-3">
-            <img src="./media/Shous/shousmen-image3.webp" alt="" style={{width:"90%",height:"60vh"}}/>
+            <img src="./media/Shous/shousmen-image3.webp" alt="" className="card-slider-image"/>
           </div>
 
          <div className="co-md-3">
-            <img src="./media/Shous/shousmen-image4.jpg" alt="" style={{width:"90%",height:"60vh"}}/>
+            <img src="./media/Shous/shousmen-image4.jpg" alt="" className="card-slider-image"/>
           </div>
 
          <div className="co-md-3">
-            <img src="./media/Shous/shousmen-image5.jpg" alt="" style={{width:"90%",height:"60vh"}}/>
+            <img src="./media/Shous/shousmen-image5.jpg" alt="" className="card-slider-image"/>
           </div>
 
          <div className="co-md-3">
-            <img src="./media/Shous/shousmen-image6.jpg" alt="" style={{width:"90%",height:"60vh"}}/>
+            <img src="./media/Shous/shousmen-image6.jpg" alt="" className="card-slider-image"/>
           </div>
 
          <div className="co-md-3">
-            <img src="./media/Shous/shousmen-image7.webp" alt="" style={{width:"90%",height:"60vh"}}/>
+            <img src="./media/Shous/shousmen-image7.webp" alt="" className="card-slider-image"/>
           </div>
 
          <div className="co-md-3">
-            <img src="./media/Shous/shousmen-image1.jpg" alt="" style={{width:"90%",height:"60vh"}}/>
+            <img src="./media/Shous/shousmen-image1.jpg" alt="" className="card-slider-image"/>
           </div>
 
           <div>
           <div className="co-md-3">
-            <img src="./media/Shous/shousmen-image1.jpg" alt="" style={{width:"90%",height:"60vh"}}/>
+            <img src="./media/Shous/shousmen-image1.jpg" alt="" className="card-slider-image"/>
           </div>
         </div>
         <div className="co-md-3">
-            <img src="./media/Shous/shousmen-image2.webp" alt="" style={{width:"90%",height:"60vh"}}/>
+            <img src="./media/Shous/shousmen-image2.webp" alt="" className="card-slider-image"/>
           </div>
 
          <div className="co-md-3">
-            <img src="./media/Shous/shousmen-image3.webp" alt="" style={{width:"90%",height:"60vh"}}/>
+            <img src="./media/Shous/shousmen-image3.webp" alt="" className="card-slider-image"/>
           </div>
 
          <div className="co-md-3">
-            <img src="./media/Shous/shousmen-image4.jpg" alt="" style={{width:"90%",height:"60vh"}}/>
+            <img src="./media/Shous/shousmen-image4.jpg" alt="" className="card-slider-image"/>
           </div>
 
          <div className="co-md-3">
-            <img src="./media/Shous/shousmen-image5.jpg" alt="" style={{width:"90%",height:"60vh"}}/>
+            <img src="./media/Shous/shousmen-image5.jpg" alt="" className="card-slider-image"/>
           </div>
 
          <div className="co-md-3">
-            <img src="./media/Shous/shousmen-image6.jpg" alt="" style={{width:"90%",height:"60vh"}}/>
+            <img src="./media/Shous/shousmen-image6.jpg" alt="" className="card-slider-image"/>
           </div>
 
          <div className="co-md-3">
-            <img src="./media/Shous/shousmen-image7.webp" alt="" style={{width:"90%",height:"60vh"}}/>
+            <img src="./media/Shous/shousmen-image7.webp" alt="" className="card-slider-image"/>
           </div>
 
          <div className="co-md-3">
-            <img src="./media/Shous/shousmen-image1.jpg" alt="" style={{width:"90%",height:"60vh"}}/>
+            <img src="./media/Shous/shousmen-image1.jpg" alt="" className="card-slider-image"/>
           </div>
 
           

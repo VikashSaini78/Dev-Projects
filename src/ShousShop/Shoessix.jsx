@@ -21,7 +21,7 @@ function ShoesSix() {
     alignItems:"center",
     fontSize:"25px",
     gap:'3px',
-    backgroundColor:"white"
+    // backgroundColor:"white"
 
     
   }}>
@@ -36,28 +36,13 @@ function ShoesSix() {
 
 
   
-<Box sx={{
-                width:'100%',
-                height:"auto",
-                // display:"flex",
-                // justifyContent:"center",
-                // alignItems:"center",
-                // backgroundColor:"pink"
-            }}>
+<div className="shous-three-3-1">
             <div className="container">
             <div className="row">
             <div className="col-md-4">
-            <Box sx={{
-                width:"100%",
-                height:"73vh",
-                // boxShadow:'1px 1px 1px 1px gray'
-                // backgroundColor:"pink"
-            }}>
+            <div className="shous-three-box-3-2">
            <Link to={"/HomeApi"}>
-           <img src="./media/Shous/shousmen-image1.jpg" alt="image error" style={{
-                 width:"100%",
-                 height:"73vh",
-            }}/>
+           <img src="./media/Shous/shousmen-image1.jpg" alt="image error" className="shous-three-box-image"/>
            </Link>
           <Box sx={{
             position:"relative",
@@ -71,21 +56,14 @@ function ShoesSix() {
             }}>Shop Now</Link>
           </Box>
 
-            </Box>
+            </div>
 </div>
 
 
 <div className="col-md-4">
-           <Box sx={{
-                width:"100%",
-                height:"73vh",
-                // backgroundColor:"pink"
-            }}>
+           <div className="shous-three-box-3-2">
          <Link to={"/HomeApi"}>
-         <img src="./media/Shous/shousmen-image2.webp" alt="image error" style={{
-                 width:"100%",
-                 height:"73vh",
-            }} className="shous-Six-combo-img-"/>
+         <img src="./media/Shous/shousmen-image2.webp" alt="image error" className="shous-three-box-image"/>
          </Link>
             <Box sx={{
             position:"relative",
@@ -98,20 +76,13 @@ function ShoesSix() {
                 textDecoration:"underline"
             }}>Shop Now</Link>
           </Box>
-            </Box>
+            </div>
 </div>
 
 
 <div className="col-md-4">
-<Box sx={{
-                width:"100%",
-                height:"73vh",
-                // backgroundColor:"pink"
-            }}>
-           <Link to={"/HomeApi"}> <img src="./media/Shous/shousmen-image3.webp" alt="image error" style={{
-                 width:"100%",
-                 height:"73vh",
-            }} className="shous-Six-combo-img-"/>
+<div className="shous-three-box-3-2">
+           <Link to={"/HomeApi"}> <img src="./media/Shous/shousmen-image3.webp" alt="image error" className="shous-three-box-image"/>
 
             </Link>
             <Box sx={{
@@ -125,46 +96,30 @@ function ShoesSix() {
                 textDecoration:"underline"
             }}>Shop Now</Link>
           </Box>
-            </Box>
+            </div>
 </div>
 </div>
 </div>
 
-            </Box>
+            </div>
 
 
 
 
 
 
-  {/* shous 3 */}
+  {/* next shous 3 */}
 
   
 
 
-            <Box sx={{
-                width:'100%',
-                height:"auto",
-                marginTop:"25px"
-                // display:"flex",
-                // justifyContent:"center",
-                // alignItems:"center"
-                // backgroundColor:"white"
-            }}>
+            <div className="shous-three-3-1">
             <div className="container">
             <div className="row">
             <div className="col-md-4">
-            <Box sx={{
-                width:"100%",
-                height:"73vh",
-                boxShadow:'1px 1px 1px 1px gray'
-                // backgroundColor:"pink"
-            }}>
+            <div className="shous-three-box-3-2">
            <Link to={""}>
-           <img src="./media/Shous/shousmen-image6.jpg" alt="image error" style={{
-                 width:"100%",
-                 height:"73vh",
-            }}/>
+           <img src="./media/Shous/shousmen-image6.jpg" alt="image error" className="shous-three-box-image"/>
            </Link>
           <Box sx={{
             position:"relative",
@@ -178,21 +133,14 @@ function ShoesSix() {
             }}>Shop Now</Link>
           </Box>
 
-            </Box>
+            </div>
 </div>
 
 
 <div className="col-md-4">
-           <Box sx={{
-                width:"100%",
-                height:"73vh",
-                // backgroundColor:"pink"
-            }}>
+           <div className="shous-three-box-3-2">
          <Link>
-         <img src="./media/Shous/shousmen-image7.webp" alt="image error" style={{
-                 width:"100%",
-                 height:"73vh",
-            }} className="shous-Six-combo-img-"/>
+         <img src="./media/Shous/shousmen-image7.webp" alt="image error" className="shous-three-box-image"/>
          </Link>
             <Box sx={{
             position:"relative",
@@ -205,20 +153,13 @@ function ShoesSix() {
                 textDecoration:"underline"
             }}>Shop Now</Link>
           </Box>
-            </Box>
+            </div>
 </div>
 
 
 <div className="col-md-4">
-<Box sx={{
-                width:"100%",
-                height:"73vh",
-                // backgroundColor:"pink"
-            }}>
-           <Link> <img src="./media/Shous/shousmen-image4.jpg" alt="image error" style={{
-                 width:"100%",
-                 height:"73vh",
-            }} className="shous-Six-combo-img-"/>
+<div className="shous-three-box-3-2">
+           <Link> <img src="./media/Shous/shousmen-image4.jpg" alt="image error" className="shous-three-box-image"/>
 
             </Link>
             <Box sx={{
@@ -232,11 +173,18 @@ function ShoesSix() {
                 textDecoration:"underline"
             }}>Shop Now</Link>
           </Box>
-            </Box>
+            </div>
 </div>
 </div>
 </div>
-            </Box>
+            </div>
+
+
+
+
+            {/* Shop By Collections */}
+
+
 
 
 
@@ -255,27 +203,24 @@ function ShoesSix() {
 
 
 
-         <Box sx={{
-            width:"100%",
-            height:"auto",
-            // backgroundColor:"pink"
-         }}>
+
+            {/* Hastkala */}
+
+
+
+
+
+
+         <div className="Hastkala-colom-1">
 
          <div className="container">
          <div className="row">
          <div className="col-md-6">
-         <Box sx={{
-            width:"100%",
-            height:"85vh",
-            // backgroundColor:"white",
-            display:"flex",
-            justifyContent:"center",
-            alignItems:"center",
-            
-         }}>
+
+         <div className="Hastkala-box-1">
        <Box sx={{
         width:"50%",
-        height:"50vh",
+        height:"auto",
         // backgroundColor:"yellow"
        }}>
        <div className=" text-center text-4xl mb-2">Hastkala</div>
@@ -294,58 +239,37 @@ function ShoesSix() {
    }}>Shop Now</Button>
        </Link></div>
        </Box>
-         </Box>
+         </div>
 
          </div>
          <div className="col-md-6">
- <Box sx={{
-            width:"100%",
-            height:"85vh",
-            backgroundColor:"gray"
-         }}>
-         <Link><img src="./media/Shous/Hast-img.webp" alt="" style={{width:"100%",height:"85vh"}}/></Link>
+         <div className="Hastkala-box-1">
+         <Link><img src="./media/Shous/Hast-img.webp" alt="" className="Hastkala-colom-image"/></Link>
 
-         </Box>
+         </div>
         </div>
          </div>
          </div>
 
-         </Box>
+         </div>
 
 
 {/* next  colom*/}
 
 
-         <Box sx={{
-            width:"100%",
-            height:"auto",
-            // backgroundColor:"pink",
-            marginTop:"40px"
-         }}>
+         <div className="Hastkala-colom-1">
 
          <div className="container">
          <div className="row">
          <div className="col-md-6">
- <Box sx={{
-            width:"100%",
-            height:"85vh",
-            backgroundColor:"gray"
-         }}>
-         <Link><img src="./media/Shous/shous-image3.webp" alt="" style={{width:"100%",height:"85vh"}}/></Link>
+         <div className="Hastkala-box-1">
+         <Link><img src="./media/Shous/shous-image3.webp" alt="" className="Hastkala-colom-image"/></Link>
 
-         </Box>
+         </div>
         </div> 
         
         <div className="col-md-6">
-         <Box sx={{
-            width:"100%",
-            height:"85vh",
-            // backgroundColor:"white",
-            display:"flex",
-            justifyContent:"center",
-            alignItems:"center",
-            
-         }}>
+         <div className="Hastkala-box-1">
        <Box sx={{
         width:"50%",
         height:"50vh",
@@ -365,36 +289,24 @@ function ShoesSix() {
        color:"black"
        }}>Shop Now</Button></div>
        </Box>
-         </Box>
-
-         </div>
-         </div>
          </div>
 
-         </Box>
+         </div>
+         </div>
+         </div>
+
+         </div>
 
 
 
   {/* next colom */}
 
-  <Box sx={{
-            width:"100%",
-            height:"auto",
-            // backgroundColor:"pink"
-         }}>
+  <div className="Hastkala-colom-1">
 
          <div className="container">
          <div className="row">
          <div className="col-md-6">
-         <Box sx={{
-            width:"100%",
-            height:"85vh",
-            // backgroundColor:"white",
-            display:"flex",
-            justifyContent:"center",
-            alignItems:"center",
-            
-         }}>
+         <div className="Hastkala-box-1">
        <Box sx={{
         width:"50%",
         height:"50vh",
@@ -414,23 +326,19 @@ function ShoesSix() {
        color:"black"
        }}>Shop Now</Button></div>
        </Box>
-         </Box>
+         </div>
 
          </div>
          <div className="col-md-6">
- <Box sx={{
-            width:"100%",
-            height:"85vh",
-            backgroundColor:"gray"
-         }}>
-         <Link><img src="./media/Shous/Rangmahal-image2.jpg" alt="" style={{width:"100%",height:"85vh"}}/></Link>
+ <div className="Hastkala-box-1">
+         <Link><img src="./media/Shous/Rangmahal-image2.jpg" alt="" className="Hastkala-colom-image"/></Link>
 
-         </Box>
+         </div>
         </div>
          </div>
          </div>
 
-         </Box>
+         </div>
 
 
 
@@ -499,14 +407,10 @@ function ShoesSix() {
          <div className="container">
          <div className="row">
          <div className="col-md-6">
- <Box sx={{
-            width:"100%",
-            height:"85vh",
-            backgroundColor:"gray"
-         }}>
-         <Link><img src="./media/Shous/shous-image5.avif" alt="" style={{width:"100%",height:"85vh"}}/></Link>
+ <div className="sel-box-1">
+         <Link><img src="./media/Shous/shous-image5.avif" alt="" className="sel-image"/></Link>
 
-         </Box>
+         </div>
         </div> 
         
         <div className="col-md-6">
@@ -523,14 +427,14 @@ function ShoesSix() {
        <div className=" text-center text-4xl mb-2">All on SALE</div>
 
        <div className='mt-5 flex justify-between'>
-       <Button style={{width:"auto",height:"40px",borderRadius:"50px",border:"1px solid black",color:"black",padding:"5px"}} >Men Shous for Sel</Button>
-       <Button style={{width:"auto",height:"40px",borderRadius:"50px",border:"1px solid black",color:"black"}} >kids shous for sel</Button>
+       <Button style={{width:"auto",height:"40px",borderRadius:"50px",border:"1px solid black",color:"black",padding:"5px"}} >Men Shous f Sel</Button>
+       <Button style={{width:"auto",height:"40px",borderRadius:"50px",border:"1px solid black",color:"black"}} >kids shous f sel</Button>
 
        </div> 
 
         <div className='mt-5 flex justify-between'>
-       <Button style={{width:"auto",height:"40px",borderRadius:"50px",border:"1px solid black",color:"black",padding:"5px"}} >huMen Shous for Sel</Button>
-       <Button style={{width:"auto",height:"40px",borderRadius:"50px",border:"1px solid black",color:"black"}} >girls shous for sel</Button>
+       <Button style={{width:"auto",height:"40px",borderRadius:"50px",border:"1px solid black",color:"black",padding:"5px"}} >huMen Shous  Sel</Button>
+       <Button style={{width:"auto",height:"40px",borderRadius:"50px",border:"1px solid black",color:"black"}} >girls shous sel</Button>
 
        </div> 
 

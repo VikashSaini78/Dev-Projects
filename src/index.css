@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 .nav-icons-btn{
     color: black;
     height: 11vh;
@@ -14,6 +15,67 @@
 .nav-icons-btn-link:hover{
     color: rgb(102, 102, 134);
 }
+
+
+/* 1 */
+
+
+.slide-only-1{
+    width: 100%;
+    height: 80vh;
+    /* background-color: blue; */
+}
+
+.slide-only-img{
+    width: 100%;
+    height: 80vh;
+}
+
+
+
+/* 2 */
+
+.card-slider-image{
+    width: 90%;
+    height: 60vh;
+
+}
+
+
+/* 3 */
+
+.shous-three-3-1{
+    width: 100%;
+    height: auto;
+    /* background-color: aqua; */
+}
+.shous-three-box-3-2{
+    width: 100%;
+    height: 73vh;
+}
+.shous-three-box-image{
+    width: 100%;
+    height: 73vh;
+}
+
+/* 4 */
+.Hastkala-colom-1{
+    width: 100%;
+    height: auto;
+}
+.Hastkala-box-1{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Hastkala-colom-image{
+    width: 100%;
+    height: 85vh;
+}
+
+
 .all-on-sell-nfh{
     width: 63%;
     height: 65vh;
@@ -45,6 +107,16 @@
     transform: scale(1.1);
 }
 
+.sel-box-1{
+    width: 100%;
+    height: 85vh;
+}
+
+.sel-image{
+    width: 100%;
+    height: 85vh;
+}
+
 
 
 @media only screen and (min-width: 300px) and (max-width: 767px){
@@ -55,22 +127,85 @@
         justify-content: end;
         
     }
+   
+    .slide-only-1{
+        width: 100%;
+        height: 50vh;
+        /* background-color: blue; */
+    }
+    
+    .slide-only-img{
+        width: 100%;
+        height: 50vh;
+    }
+    
+    
     .card-slider-smg-smg{
         width: 94%;
-        /* height: auto; */
-        /* background-color: brown; */
         margin: auto;
        
     }
-    .shous-Six-combo-img-{
-        background-color: black;
+
+    .card-slider-image{
+        width: 100%;
+        height: 50vh;
+
+    }
+   
+
+    /* 3 */
+    
+
+    .six-shous-three-men{
+        width: 100%;
+        height: auto;
+    }
+
+    .shous-three-box-3-2{
+        width: 100%;
+        height: 60vh;
+    }
+    .shous-three-box-image{
+        width: 100%;
+        height: 60vh;
         margin-top: 25px;
     }
+    
+
+    
+
+/* 4 */
+
+
+.Hastkala-box-1{
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aquamarine; */
+    margin-bottom: 20px;
+}
+
+
+   .Hastkala-colom-image{
+    width: 100%;
+    height: 65vh;
+}
+
+
+
     .all-on-sell-nfh{
         width: auto;
         height: auto;
         /* background-color: aqua; */
     }
+
+
+
+
+
+
     .Shous-girls-links{
         width:"100%";
         height: 20vh;
@@ -78,10 +213,18 @@
        display: flex;
        justify-content: center;
        align-items: center;
-        font-size: 16px;
-        gap: 10px;
+        font-size: 13px;
+        gap: 5px;
+    }
+    .sel-box-1{
+        width: 100%;
+        height: auto;
     }
     
+    .sel-image{
+        width: 100%;
+        height: auto;
+    }
    
 }
 

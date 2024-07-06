@@ -49,7 +49,7 @@ function Cardslider3() {
       <Slider {...settings}>
         <div>
           <div className="co-md-3">
-            <Link><img src="./media/Shous/menshous-img2.webp" alt="" style={{width:"90%",height:"60vh"}}/></Link>
+            <Link><img src="./media/Shous/menshous-img2.webp" alt="" className="card-slider-image"/></Link>
             <Box sx={{
                 width:"90%",
                 height:"auto",
@@ -64,7 +64,7 @@ function Cardslider3() {
           </div>
         </div>
         <div className="co-md-3">
-            <img src="./media/Shous/menshous-img3.webp" alt="" style={{width:"90%",height:"60vh"}}/>
+            <img src="./media/Shous/menshous-img3.webp" alt="" className="card-slider-image"/>
             <Box sx={{
                 width:"90%",
                 height:"auto",
@@ -79,7 +79,7 @@ function Cardslider3() {
           </div>
 
          <div className="co-md-3">
-            <img src="./media/Shous/menshous-img4.jpg" alt="" style={{width:"90%",height:"60vh"}}/>
+            <img src="./media/Shous/menshous-img4.jpg" alt="" className="card-slider-image"/>
             <Box sx={{
                 width:"90%",
                 height:"auto",
@@ -94,7 +94,7 @@ function Cardslider3() {
           </div>
 
          <div className="co-md-3">
-            <img src="./media/Shous/menshous-img5.webp" alt="" style={{width:"90%",height:"60vh"}}/>
+            <img src="./media/Shous/menshous-img5.webp" alt="" className="card-slider-image"/>
             <Box sx={{
                 width:"90%",
                 height:"auto",
@@ -109,7 +109,7 @@ function Cardslider3() {
           </div>
 
          <div className="co-md-3">
-            <img src="./media/Shous/menshous-img6.webp" alt="" style={{width:"90%",height:"60vh"}}/>
+            <img src="./media/Shous/menshous-img6.webp" alt="" className="card-slider-image"/>
             <Box sx={{
                 width:"90%",
                 height:"auto",
@@ -124,7 +124,7 @@ function Cardslider3() {
           </div>
 
          <div className="co-md-3">
-            <img src="./media/Shous/menshous-img7.jpeg" alt="" style={{width:"90%",height:"60vh"}}/>
+            <img src="./media/Shous/menshous-img7.jpeg" alt="" className="card-slider-image"/>
             <Box sx={{
                 width:"90%",
                 height:"auto",
@@ -139,7 +139,7 @@ function Cardslider3() {
           </div>
 
          <div className="co-md-3">
-            <img src="./media/Shous/menshous-img8.webp" alt="" style={{width:"90%",height:"60vh"}}/>
+            <img src="./media/Shous/menshous-img8.webp" alt="" className="card-slider-image"/>
             <Box sx={{
                 width:"90%",
                 height:"auto",
@@ -154,7 +154,7 @@ function Cardslider3() {
           </div>
 
          <div className="co-md-3">
-            <img src="./media/Shous/Girlsshous-img8.webp" alt="" style={{width:"90%",height:"60vh"}}/>
+            <img src="./media/Shous/Girlsshous-img8.webp" alt="" className="card-slider-image"/>
             <Box sx={{
                 width:"90%",
                 height:"auto",
@@ -170,7 +170,7 @@ function Cardslider3() {
 
           <div>
           <div className="co-md-3">
-            <img src="./media/Shous/Girlsshous-img4.jpeg" alt="" style={{width:"90%",height:"60vh"}}/>
+            <img src="./media/Shous/Girlsshous-img4.jpeg" alt="" className="card-slider-image"/>
             <Box sx={{
                 width:"90%",
                 height:"auto",
@@ -185,7 +185,7 @@ function Cardslider3() {
           </div>
         </div>
         <div className="co-md-3">
-            <img src="./media/Shous/Girlsshous-img1.avif" alt="" style={{width:"90%",height:"60vh"}}/>
+            <img src="./media/Shous/Girlsshous-img1.avif" alt="" className="card-slider-image"/>
             <Box sx={{
                 width:"90%",
                 height:"auto",
