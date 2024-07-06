@@ -40,7 +40,10 @@ function Cardslider3() {
   };
   return (
 
-    <div className="container">
+  
+
+    <div className="card-slider-smg-smg">
+  <div className="container">
     <div className="row">
     <div className="slider-container">
       <Slider {...settings}>
@@ -202,6 +205,7 @@ function Cardslider3() {
     </div>
     </div>
 
+    </div>
     </div>
     
 

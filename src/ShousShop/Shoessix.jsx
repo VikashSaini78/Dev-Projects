@@ -5,6 +5,13 @@ function ShoesSix() {
     return ( 
         <>
 
+
+
+
+  {/* Explore shous */}
+
+
+
 <Box sx={{
     width:"100%",
     height:"20vh",
@@ -18,16 +25,24 @@ function ShoesSix() {
 
     
   }}>
+
     <Link to={"/HomeApi"}>Explore Shous</Link> 
   </Box>
 
-            <Box sx={{
+
+
+  {/* shous 3 */}
+
+
+
+  
+<Box sx={{
                 width:'100%',
                 height:"auto",
                 // display:"flex",
                 // justifyContent:"center",
                 // alignItems:"center",
-                // backgroundColor:"white"
+                // backgroundColor:"pink"
             }}>
             <div className="container">
             <div className="row">
@@ -70,7 +85,7 @@ function ShoesSix() {
          <img src="./media/Shous/shousmen-image2.webp" alt="image error" style={{
                  width:"100%",
                  height:"73vh",
-            }}/>
+            }} className="shous-Six-combo-img-"/>
          </Link>
             <Box sx={{
             position:"relative",
@@ -96,7 +111,7 @@ function ShoesSix() {
            <Link to={"/HomeApi"}> <img src="./media/Shous/shousmen-image3.webp" alt="image error" style={{
                  width:"100%",
                  height:"73vh",
-            }}/>
+            }} className="shous-Six-combo-img-"/>
 
             </Link>
             <Box sx={{
@@ -117,6 +132,14 @@ function ShoesSix() {
 
             </Box>
 
+
+
+
+
+
+  {/* shous 3 */}
+
+  
 
 
             <Box sx={{
@@ -169,7 +192,7 @@ function ShoesSix() {
          <img src="./media/Shous/shousmen-image7.webp" alt="image error" style={{
                  width:"100%",
                  height:"73vh",
-            }}/>
+            }} className="shous-Six-combo-img-"/>
          </Link>
             <Box sx={{
             position:"relative",
@@ -195,7 +218,7 @@ function ShoesSix() {
            <Link> <img src="./media/Shous/shousmen-image4.jpg" alt="image error" style={{
                  width:"100%",
                  height:"73vh",
-            }}/>
+            }} className="shous-Six-combo-img-"/>
 
             </Link>
             <Box sx={{
@@ -427,38 +450,24 @@ function ShoesSix() {
        <div className="row">
        <div className="col-md-4">
         
-        <Box sx={{
-            width:"100%",
-            height:"70vh",
-            boxShadow:"20px 5px 50px 5px gray",
-            marginTop:"70px"
-        }}>
-         <Link><img src="./media/Shous/sixshous-image6.png" alt=""/> </Link>
-        </Box>
+        <div className="hover-shous-three"
+        >
+         <Link><img src="./media/Shous/sixshous-image6.png" alt="" className="hover-shous-three-img"/> </Link>
+        </div>
 
 
        </div>
 
        <div className="col-md-4">
-       <Box sx={{
-            width:"100%",
-            height:"70vh",
-            boxShadow:"20px 5px 50px 5px gray",
-            marginTop:"70px"
-        }}>
-         <Link><img src="./media/Shous/sixshous-image5.png" alt=""/> </Link>
-        </Box>
+       <div className="hover-shous-three">
+         <Link><img src="./media/Shous/sixshous-image1.png" alt="error" className="hover-shous-three-img"/> </Link>
+        </div>
        </div>
 
        <div className="col-md-4">
-       <Box sx={{
-            width:"100%",
-            height:"70vh",
-            boxShadow:"20px 5px 50px 5px gray",
-            marginTop:"70px"
-        }}>
-         <Link><img src="./media/Shous/sixshous-image3.png" alt=""/> </Link>
-        </Box>
+       <div className="hover-shous-three">
+         <Link><img src="./media/Shous/sixshous-image3.png" alt="" className="hover-shous-three-img"/> </Link>
+        </div>
        </div>
        </div>
        </div>
@@ -510,11 +519,7 @@ function ShoesSix() {
             alignItems:"center",
             
          }}>
-       <Box sx={{
-        width:"63%",
-        height:"65vh",
-        // backgroundColor:"yellow"
-       }}>
+       <div className="all-on-sell-nfh">
        <div className=" text-center text-4xl mb-2">All on SALE</div>
 
        <div className='mt-5 flex justify-between'>
@@ -533,7 +538,7 @@ function ShoesSix() {
        Don't miss special offers
        </div>      
       
-       </Box>
+       </div>
          </Box>
 
          </div>
@@ -548,18 +553,13 @@ function ShoesSix() {
        {/* humena collection */}
 
        
-       <Box sx={{
-                width:"100%",
-                height:"20vh",
-                backgroundColor:"white",
-                display:"flex",
-                justifyContent:"center",
-                alignItems:"center",
-                fontSize:"23px",
-                gap:"16px"
-            }}>
+       <div className='Shous-girls-links' 
+      //  {{
+               
+      //       }}
+            >
            <Link> Shous girls </Link>| <Link style={{color:"gray"}}>Top & Shous girls</Link> | <Link style={{color:"gray"}}>Trending & Shous girls</Link>
-            </Box>
+            </div>
 
 
 

@@ -1,6 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
 
+
 function CardSlider1() {
   var settings = {
     dots: true,
@@ -37,7 +38,8 @@ function CardSlider1() {
     ]
   };
   return (
-    <div className="container">
+   <div className="card-slider-smg-smg">
+     <div className="container">
     <div className="row">
     <div className="slider-container">
       <Slider {...settings}>
@@ -114,6 +116,7 @@ function CardSlider1() {
     </div>
 
     </div>
+   </div>
   );
 }
 

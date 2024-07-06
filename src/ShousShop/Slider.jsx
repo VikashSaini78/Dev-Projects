@@ -4,7 +4,8 @@ import { Link } from "react-router-dom";
 function Slider() {
     return ( 
         <>
-            <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
+    <div className="slider-media-sgm">
+    <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
   <div className="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -17,7 +18,7 @@ function Slider() {
   }}>
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img src="./media/Shous/shous-image2.jpg" className="d-block" alt="..." style={{
+      <img src="./media/Shous/shous-image10.avif" className="d-block" alt="..." style={{
         width:"100%",
         height:"80vh"
       }}/>
@@ -57,6 +58,7 @@ function Slider() {
     <span className="visually-hidden">Next</span>
   </button>
 </div>
+    </div>
 
   <Box sx={{
     width:"100%",
