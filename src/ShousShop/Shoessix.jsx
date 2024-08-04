@@ -36,7 +36,7 @@ function ShoesSix() {
 
 
   
-<div className="shous-three-3-1">
+            <div className="shous-three-3-1">
             <div className="container">
             <div className="row">
             <div className="col-md-4">
@@ -244,7 +244,7 @@ function ShoesSix() {
          </div>
          <div className="col-md-6">
          <div className="Hastkala-box-1">
-         <Link><img src="./media/Shous/Hast-img.webp" alt="" className="Hastkala-colom-image"/></Link>
+         <Link><img src="./media/Shous/sixshous-image9.png" alt="" className="Hastkala-colom-image"/></Link>
 
          </div>
         </div>
@@ -263,7 +263,7 @@ function ShoesSix() {
          <div className="row">
          <div className="col-md-6">
          <div className="Hastkala-box-1">
-         <Link><img src="./media/Shous/shous-image3.webp" alt="" className="Hastkala-colom-image"/></Link>
+         <Link><img src="./media/Shous/sixshous-image6.png" alt="" className="Hastkala-colom-image"/></Link>
 
          </div>
         </div> 
@@ -331,7 +331,7 @@ function ShoesSix() {
          </div>
          <div className="col-md-6">
  <div className="Hastkala-box-1">
-         <Link><img src="./media/Shous/Rangmahal-image2.jpg" alt="" className="Hastkala-colom-image"/></Link>
+         <Link><img src="./media/Shous/sixshous-image5.png" alt="" className="Hastkala-colom-image"/></Link>
 
          </div>
         </div>
